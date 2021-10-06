@@ -12,10 +12,10 @@ A possible use is to encode a book you just wrote or confidential documents insi
 
 ## Features
 
-    - [X] Encode plain texts messages
-    - [X] Encode compressed files
-    - [X] Encrypt messages with AES
-    - [X] Use dynamic number of least significant bits
+- [X] Encode plain texts messages
+- [X] Encode compressed files
+- [X] Encrypt messages with AES
+- [X] Use dynamic number of least significant bits
 
 
 ## How to use
@@ -42,5 +42,5 @@ streamlit run app/main.py
 
 ## To do's
 
-    - [] Add tests
-    - [] Hide message inside high entropy locations
+- [ ] Add tests
+- [ ] Hide message inside high entropy locations
