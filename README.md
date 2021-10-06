@@ -20,7 +20,17 @@ A possible use is to encode a book you just wrote or confidential documents insi
 
 ## How to use
 
+
+### Installation
+
+Creave virtual env with 3.7 >= python <= 3.9 (untested for other versions), then run:
+```
+pip install -r requirements.txt
+```
+
+
 ### Api
+
 ```python
 from PIL import Image
 
@@ -35,10 +45,12 @@ encoded_img, secret_key = encode(img, message)
 decoded_message = decode(encoded_img, secret_key)
 ```
 
+
 ### App
 ```shell
 streamlit run app/main.py
 ```
+
 
 ## To do's
 
